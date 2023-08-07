@@ -102,4 +102,33 @@
 }
 .cabecalho_menu-hamburguer{
     display: none;}
+} 
+
+.opções_botão:checked~.lista-menu {
+    display: block;
+    width: auto;
 }
+
+.opções_botão {
+    display: none;
+}
+
+{
+@media screen and(min-width: 1728px) }
+    .container_link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho{
+        padding: 0 2em;
+    }
+    .opções {
+        margin-right: auto;
+    }
+
+    .container_texto {
+        display: block;
+    }
